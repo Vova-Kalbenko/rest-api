@@ -1,9 +1,10 @@
-const contacts = require("../models/contacts");
+// CONTROLLERS ЭТО ПУТЕВОДИТЕЛИ, ПРОЦЕССУАЛЬНЫЕ ФУКЦИИ, ОПРЕДЕЛЯЮЩИЕ ПОРЯДОК И ПУТЬ ОБРАБОТКИ ЗАПРОСОВ
+const contacts = require("../models/contacts"); // импорт контактов
 const { HttpError, ctrlWrapper } = require("../helpers");
 
 const getAll = async (req, res) => {
   const result = await contacts.listContacts();
-  res.json(result);
+  res.json(result); // json - то же самок что и  send ток с расспарсом
 };
 
 const getById = async (req, res) => {

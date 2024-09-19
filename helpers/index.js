@@ -1,3 +1,5 @@
+// HELPERS OR UTILS НУЖНЫ ДЛЯ ПЕРЕСПОЛЬЗОВАНИЯ КОДа ОШИБКИ
+
 const HttpError = require('./HttpError');
 const ctrlWrapper = require('./ctrlWrapper')
 

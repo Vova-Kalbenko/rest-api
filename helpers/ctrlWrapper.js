@@ -1,3 +1,4 @@
+// ФУНКЦИЯ ДЛЯ ТОГО ЧТО Б В КАЖДОЙ ФУНКЦИИ ОБРАБОТЧКИНЕ НЕ ПИСАТЬ ТРАЙ КЕЧ КОД
 const ctrlWrapper = (ctrl) => {
     const func = async (req, res, next) => {
       try {
